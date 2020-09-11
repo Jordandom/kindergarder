@@ -1,0 +1,99 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    margin: 0;
+    padding: 0%;
+}
+nav {
+    /*border: 2px groove red;*/
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.banner {
+    background: url(banner.jpg) no-repeat center/cover; 
+    height: 500px;
+    left: 100px;
+    /*position: relative;*/
+   /*border: 2px groove red;*/
+}
+.kindergarden {
+    position: relative;
+    left: 380px;
+    top: 100px;
+  border: 2px groove red;
+  padding-right: 3000px;
+}
+.banner .b::first-letter {
+    font-size: 200%;
+    color: yellow;
+  }
+  .banner .i::first-letter {
+    font-size: 200%;
+    color: red;
+  }
+  .banner .k::first-letter {
+    font-size: 200%;
+    color: blue;
+  }
+ hr {
+     max-width: 200px;
+     border: 2px groove red;
+ }
+ .mission {
+     background-color:#FFE964;
+     margin: 0;
+     text-align: center;
+ }
+h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+p {
+    padding-bottom: 30px;
+}
+.about {
+    text-align: center;
+    padding;
+}
+.paragraph {
+    /*border: 2px groove red;*/
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.team {
+    background-color: #FF523D;
+    
+}
+.people {
+    text-align: center;
+}
+.name {
+    color: #FFFFFF;
+}
+.job {
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.right {
+    padding-right: 300px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+footer {
+    margin: 0;
+    background-color: #223C88;
+}
+main {
+    margin: 0;
+}
+.contact {
+    margin: 0;
+}
